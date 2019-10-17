@@ -90,7 +90,7 @@ func parseMountInfoString(mountString string) (*MountInfo, error) {
 	var err error
 
 	// OptionalFields can be zero, hence these checks to ensure we do not populate the wrong values in the wrong spots
-	separatorIndex := strings.Index(mountString, "-")
+	separatorIndex := strings.Index(mountString, " - ")
 	if separatorIndex == -1 {
 		return nil, fmt.Errorf("no separator found in mountinfo string: %s", mountString)
 	}
