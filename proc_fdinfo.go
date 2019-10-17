@@ -18,7 +18,7 @@ import (
 	"bytes"
 	"regexp"
 
-	"github.com/prometheus/procfs/internal/util"
+	"github.com/meriororen/procfs/internal/util"
 )
 
 // Regexp variables

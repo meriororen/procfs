@@ -21,7 +21,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/prometheus/procfs/internal/util"
+	"github.com/meriororen/procfs/internal/util"
 )
 
 const netclassPath = "class/net"

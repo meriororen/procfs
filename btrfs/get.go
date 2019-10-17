@@ -21,8 +21,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/prometheus/procfs/internal/fs"
-	"github.com/prometheus/procfs/internal/util"
+	"github.com/meriororen/procfs/internal/fs"
+	"github.com/meriororen/procfs/internal/util"
 )
 
 // SectorSize contains the Linux sector size.

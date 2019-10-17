@@ -21,7 +21,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/prometheus/procfs/internal/util"
+	"github.com/meriororen/procfs/internal/util"
 )
 
 // PowerSupply contains info from files in /sys/class/power_supply for a

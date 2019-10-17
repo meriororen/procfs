@@ -22,7 +22,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/prometheus/procfs/internal/util"
+	"github.com/meriororen/procfs/internal/util"
 )
 
 // Zoneinfo holds info parsed from /proc/zoneinfo.
